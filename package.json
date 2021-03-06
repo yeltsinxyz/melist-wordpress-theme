@@ -1,0 +1,33 @@
+{
+  "name": "melist-wordpress-theme",
+  "version": "1.0.0",
+  "description": "Melist WordPress Theme",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeltsinxyz/melist-wordpress-theme.git"
+  },
+  "keywords": [
+    "melist",
+    "wordpress",
+    "theme",
+    "php",
+    "tailwindcss",
+    "client",
+    "landing-page"
+  ],
+  "author": "Yeltsin Lima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeltsinxyz/melist-wordpress-theme/issues"
+  },
+  "homepage": "https://github.com/yeltsinxyz/melist-wordpress-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3"
+  }
+}

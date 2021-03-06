@@ -1,8 +1,15 @@
 module.exports = {
-  purge: [],
+  purge: [
+    "*.php"
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'heading': ['SF Pro Display', 'ui-sans-serif'],
+        'body': ['SF Pro Text', 'ui-sans-serif']
+      }
+    },
   },
   variants: {
     extend: {},

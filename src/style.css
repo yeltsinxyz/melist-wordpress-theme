@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/subset-SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/subset-SFProDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/subset-SFProText-Medium.woff2') format('woff2'),
+        url('../fonts/subset-SFProText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/subset-SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/subset-SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    max-width: 1025px;
+}
+
+.screen-smartphone {
+    margin-top: -50px;
+}
+
+.box-smartphone {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #23C799;
+    padding: 30px 10px;
+}
