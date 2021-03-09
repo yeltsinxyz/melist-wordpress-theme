@@ -1,7 +1,10 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
-  purge: [
-    "*.php"
-  ],
+  purge: {
+    layers: ['components', 'utilities'],
+    content: ["*.php"],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -10,9 +13,18 @@ module.exports = {
         'body': ['SF Pro Text', 'ui-sans-serif']
       }
     },
+    colors: {
+      transparent: 'transparent',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.coolGray,
+      red: colors.red,
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
