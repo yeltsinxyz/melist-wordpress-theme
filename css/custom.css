@@ -1,0 +1,146 @@
+body {
+    background: url("../img/circulo.png");
+    background-repeat: no-repeat;
+    background-position: right 30% top 0px;
+}
+
+@media (max-width: 640px) {
+    body {
+        background-position: center top;
+    }
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.info-form h2 {
+    color: #573BA0;
+}
+
+.info-form h3 {
+    color: #2F2E41;
+}
+
+.bg-endereco {
+    background: url(../img//ico_localizacao.png);
+    background-repeat: no-repeat;
+    background-position: right 25px top 45%;
+    z-index: 9999;
+}
+
+.screen-smartphone {
+    margin-top: -40px;
+    background: url("../img/comidas-bg.png") no-repeat top right;
+    mix-blend-mode: multiply;
+}
+
+.screen-smartphone img {
+    margin-left: -50px;
+    mix-blend-mode: normal;
+}
+
+.box-smartphone {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #23C799;
+    padding: 34px 10px;
+    margin-left: -50px;
+}
+
+fieldset {
+    border-color: #E3E3E3;
+}
+
+.wpcf7-submit {
+    background-color: #23C799;
+}
+
+.politica a {
+    color: #573BA0;
+}
+
+.politica a:hover {
+    color: #573BA0;
+    text-decoration: underline;
+}
+
+.copy {
+    color: #999999;
+}
+
+.gmautocomplete {
+    width: 91.666667%;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    border-bottom-width: 1px;
+    padding: 1.25rem;
+    grid-column: span 3 / span 3;
+    font-family: "SF Pro Text", ui-sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+ 
+.wpcf7 form.init .wpcf7-response-output {
+    display: none;
+}
+ 
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450; /* Green */
+    color: #46b450;
+}
+ 
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    border-color: #dc3232; /* Red */
+    color: #dc3232;
+}
+ 
+.wpcf7 form.spam .wpcf7-response-output {
+    border-color: #dc3232; /* Orange */
+    color: #dc3232;
+}
+ 
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #dc3232; /* Yellow */
+    color: #dc3232;
+}
+
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+    display: none;
+}
+
+.screen-reader-response {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.wpcf7-not-valid {
+    border: solid 1px #dc3232;
+}
+
+input#cep {
+    width: 90%;
+}
+
+input#logradouro {
+    width: 100%;
+}
+
+form label {
+    color: #999999;
+}

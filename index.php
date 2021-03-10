@@ -20,7 +20,7 @@
 
     <section class="container mx-auto info-form md:px-4">
     
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-36 px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-36 md:gap-18 px-4">
         
             <div class="information">
             
@@ -28,22 +28,18 @@
                     <?php the_field('destaque_roxo', 'option'); ?>
                 </h2>
 
-                <h3 class="text-xl font-heading font-light leading-6 text-center md:text-left md:pr-32 pt-6">
+                <h3 class="text-xl font-heading font-light leading-6 text-center md:text-left lg:pr-32 pt-6">
                     <?php the_field('texto_descricao', 'option'); ?>
                 </h3>
 
                 <?php the_field('formulario', 'option'); ?>
 
-                <!--
-                    <div class="grid-cols-3 border md:mr-32 rounded-xl pb-4 col-span-3 p-5 border-b bg-endereco block col-span-1 md:border-r col-span-2 w-11/12 font-body border-0 text-sm p-0 bg-transparent w-full py-4 mt-4 pl-2"></div>
-                -->
-
             </div>
             
             <div class="screen-smartphone hidden md:block">
             
-                <img src="<?php echo get_template_directory_uri() . '/img/smartphone.png'; ?>" />
-
+                <img src="<?php echo get_template_directory_uri() . '/img/smartphone-2.png'; ?>" />
+                
                 <div class="box-smartphone relative -top-96 -left-6 text-center text-white">
                 
                     <p class="font-heading"><?php the_field('preco', 'option'); ?></p>

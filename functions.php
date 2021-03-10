@@ -3,6 +3,12 @@
 function melist_styles() {
 
     wp_enqueue_style( 'main-css', get_template_directory_uri() . '/css/style.css' );
+    wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/custom.css' );
+
+    wp_deregister_script('jquery');
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', true );
+    wp_enqueue_script( 'mask', get_template_directory_uri() . '/js/jquery.mask.min.js', true );
+    wp_enqueue_script( 'main-js', get_template_directory_uri() . '/js/app.js', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'melist_styles' );
