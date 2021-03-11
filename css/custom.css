@@ -6,7 +6,7 @@ body {
 
 @media (max-width: 767px) {
     body {
-        background: url("../img/mobile-comidas.png") no-repeat top 0px left, url("../img/circulo.png") no-repeat center top;
+        background: url("../img/mobile-comidas.png") no-repeat top 0px left, url("../img/circulo.png") no-repeat top -140px center;
     }
 }
 
@@ -20,6 +20,10 @@ body {
 
 .info-form h3 {
     color: #2F2E41;
+}
+
+fieldset {
+    background-color: #FFF;
 }
 
 .bg-endereco {
