@@ -8,6 +8,10 @@ body {
     body {
         background-position: center top;
     }
+
+    .home {
+        background: url("../img/mobile-comidas.png") no-repeat top 0px left
+    }
 }
 
 .container {
@@ -23,7 +27,7 @@ body {
 }
 
 .bg-endereco {
-    background: url(../img//ico_localizacao.png);
+    background: url("../img//ico_localizacao.png");
     background-repeat: no-repeat;
     background-position: right 25px top 45%;
     z-index: 9999;
@@ -31,8 +35,8 @@ body {
 
 .screen-smartphone {
     margin-top: -40px;
-    background: url("../img/comidas-bg.png") no-repeat top right;
-    mix-blend-mode: multiply;
+    background: url("../img/comidas-bg.png") no-repeat top 130px right 0px;
+    background-size: 409px;
 }
 
 .screen-smartphone img {

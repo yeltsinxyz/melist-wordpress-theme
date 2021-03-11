@@ -37,9 +37,12 @@
             </div>
             
             <div class="screen-smartphone hidden md:block">
-            
-                <img src="<?php echo get_template_directory_uri() . '/img/smartphone-2.png'; ?>" />
-                
+
+                <picture>
+                    <source type="image/webp" srcset="<?php echo get_template_directory_uri() . '/img/smartphone.webp'; ?>">
+                    <img src="<?php echo get_template_directory_uri() . '/img/smartphone.png'; ?>" width="362">
+                </picture>
+                        
                 <div class="box-smartphone relative -top-96 -left-6 text-center text-white">
                 
                     <p class="font-heading"><?php the_field('preco', 'option'); ?></p>
